@@ -1,0 +1,92 @@
+
+* {
+    font-family: 'Original Surfer', cursive;
+}
+.weather-container {
+    background: whitesmoke;
+    text-align: center;
+}
+h5{
+    color: chocolate;
+}
+.row{
+    padding-top: 5px;
+}
+.cultur{
+    background: whitesmoke;
+    color: chocolate;
+   
+   
+}
+.weather {
+    font-size: 22px;
+    margin: 0;
+}
+
+.temp {
+    font-size: 60px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.speed {
+    font-size: 60px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.body {
+    background-image:url(../img/paris.jpg);
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   
+
+
+}
+
+.header {
+    font-weight: bold;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+  }
+  @media (max-width: 768px) {
+    .header {
+      grid-template-columns: 1fr;
+      padding: 45px;
+    }
+  }
+  
+  .header-logo {
+    align-self: center;
+    margin-left: 100rem;
+    padding-top: 20px;
+  }
+  
+  #logo {
+    transition: all 0.5s ease-out;
+  }
+  
+  #logo:hover {
+    transform: perspective(400px) translate3d(-10px, 0px, -10px) scale(0.93);
+  }
+
+
+
+.heading {
+    color : white;
+    padding : 1em;
+    font-size: 50px;
+}
+
+
+.card {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+iframe{
+    width: 250px;
+}

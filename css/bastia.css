@@ -1,0 +1,128 @@
+body {
+    background-image:url(../img/b.jpg);
+    background-size: cover;
+    font-family: Alegreya, serif;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+  }
+  @media (max-width: 768px) {
+    .header {
+      grid-template-columns: 1fr;
+      padding: 45px;
+    }
+  }
+  
+  .header-logo {
+    align-self: center;
+    margin-left: 100rem;
+    padding-top: 20px;
+  }
+  
+  #logo {
+    transition: all 0.5s ease-out;
+  }
+  
+  #logo:hover {
+    transform: perspective(400px) translate3d(-10px, 0px, -10px) scale(0.93);
+  }
+
+
+  .weather-container {
+
+    background: whitesmoke;
+
+    text-align: center;
+
+}
+
+​
+
+.weather {
+
+    font-size: 22px;
+
+    margin: 0;
+
+}
+
+​
+
+.temp {
+
+    font-size: 60px;
+
+    margin: 0;
+
+    font-weight: bold;
+
+}
+
+​
+
+.speed {
+
+    font-size: 60px;
+
+    margin: 0;
+
+    font-weight: bold;
+
+}
+
+​
+
+body {
+
+    background-color: black;
+
+    
+
+}
+
+​
+
+.heading {
+
+    color : white;
+
+    padding : 1em;
+
+    font-size: 50px;
+
+}
+
+​
+
+.col-4 {
+
+    padding : 3em;
+
+}
+
+​
+
+.card {
+
+    background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+​
+
+* {
+
+    font-family: 'Original Surfer', cursive;
+
+}
+iframe{
+    width: 200px;
+}
+
+
+
+

@@ -1,0 +1,87 @@
+body {
+    background-image:url(../img/1025592.jpg);
+    background-size: cover;
+    font-family: Alegreya, serif;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+  }
+  @media (max-width: 768px) {
+    .header {
+      grid-template-columns: 1fr;
+      padding: 45px;
+    }
+  }
+  
+  .header-logo {
+    align-self: center;
+    margin-left: 100rem;
+    padding-top: 20px;
+  }
+  
+  #logo {
+    transition: all 0.5s ease-out;
+  }
+  
+  #logo:hover {
+    transform: perspective(400px) translate3d(-10px, 0px, -10px) scale(0.93);
+  }
+
+
+h1{
+    color : white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.clock{
+    text-align: center;
+    text-decoration: none;
+    padding: 1em 0;
+
+
+}
+
+
+span{
+    color: red;
+}
+
+.weather-container {
+    color: red;
+    text-align: center;
+}
+
+.weather {
+    font-size: 30px;
+    margin: 0;
+}
+
+.temp {
+    font-size: 60px;
+    margin: 0;
+    font-weight: bold;
+} 
+
+.yframe{
+    text-align: center;
+    color: white;
+}
+
+
+.speed {
+    font-size: 60px;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+
+
+.col-4 {
+    padding : 3em;
+}

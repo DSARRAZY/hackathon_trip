@@ -1,0 +1,40 @@
+.weather-container {
+    background: whitesmoke;
+    text-align: center;
+}
+
+.weather {
+    font-size: 22px;
+    margin: 0;
+}
+
+.temp {
+    font-size: 60px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.speed {
+    font-size: 60px;
+    margin: 0;
+    font-weight: bold;
+}
+
+body {
+    background-image:url(../img/1039198.jpg);
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.heading {
+    color : white;
+    padding : 1em;
+    font-size: 50px;
+}
+
+.col-4 {
+    padding : 3em;
+}
